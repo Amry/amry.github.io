@@ -1,3 +1,48 @@
-html body {
+.logo-style {
+    font-size: 2em;
+    font-family: Pacifico;
+    font-weight: bald;
+}
+
+body {
+    padding-top: 50px;
+    height: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+.col-sm-3 {
+    padding-top: 1%;
+    height: 100%;
     background-color: lightgrey;
 }
+
+.col-sm-9 {
+    padding-top: 1%;
+    border: 1px solid;
+    height: 100%;
+}
+
+.tab {
+    display: none;
+}
+
+.img-circle {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}
+
+.container.fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+
+
+
+
