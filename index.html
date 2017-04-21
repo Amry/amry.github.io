@@ -43,16 +43,36 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
-                <img src="resources/img/me.png" class="img-circle" alt="A.Olimov">
-                <div class="about-me">
+                <!-- The side bar, profile image with name, short info -->
+                <img src="resources/img/me.png" class="img-thumbnail" alt="A.Olimov">
+                <div class="my-name-status">
                     <h2>A.Olimov</h2>
                     <h3>Software Developer/Frontend Engineer</h3>
-                    <quote></quote>
                 </div>
+                <!-- end of side bar -->
             </div>
             <div class="col-sm-9">
                 <div class="container-fluid">
-                    <div class="tab" data-tab="about">About</div>
+                    <!-- about -->
+                    <div class="tab about" data-tab="about">
+                        <div class="jumbotron">
+                            <blockquote class="blockquote blockquote-reverse">
+                                <p class="mb-0">"When you do not fail, you do not gain. 
+                                Failure is what we call experience. Because we learn from them"</p> 
+                            </blockquote>
+                            <div class="about-content">
+                                Hi. I am Amry (short name!). I am a software developer, sport lover, family man. 
+                                I have used many tools and programming languages during my studies and spare time, 
+                                but my recent experience are mostly bound to Frontend Development. 
+                                I want to continue my journey in the JavaScript world, but not limited to.
+                                I love from time to time to look into Python Programming, Raspberry Pi world.
+                                I admire Artifical Intelligence nad think it is our bright future.  
+                            </div>
+                        </div>
+                    </div>
+                    <!--end about -->
+
+                    <!-- project section -->
                     <div class="tab" data-tab="projects">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -68,7 +88,8 @@
                                             <h3>Thumbnail label</h3>
                                             <p>Single Web Page Application (Course era)</p>
                                             <div class="progress">
-                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                                    style="width: 80%;">
                                                     80%
                                                 </div>
                                             </div>
@@ -83,11 +104,12 @@
                                             <h3>Thumbnail label</h3>
                                             <p>Friendly chat with Angular2 + Firebase</p>
                                             <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                    style="width: 50%;">
                                                     50%
                                                 </div>
                                             </div>
-                                            <p><a href="https://github.com/Amry/friendly-chat" class="btn btn-success" role="button">View in github</a> 
+                                            <p><a href="https://github.com/Amry/friendly-chat" class="btn btn-success" role="button">View in github</a>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +124,7 @@
                                                     60%
                                                 </div>
                                             </div>
-                                            <p><a href="https://github.com/Amry/IonReddit" class="btn btn-info" role="button">View in github</a> 
+                                            <p><a href="https://github.com/Amry/IonReddit" class="btn btn-info" role="button">View in github</a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +135,8 @@
                                             <h3>Thumbnail label</h3>
                                             <p>Spoken Interaction application</p>
                                             <div class="progress">
-                                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                                                    style="width: 20%;">
                                                     20%
                                                 </div>
                                             </div>
@@ -122,18 +145,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
+                    <!-- end of projects section -->
+
+                    <!--contact section -->
                     <div class="tab" data-tab="contact">
                         <div class="jumbotron">
+                            <p class="lead">
+                                I am currently available for collaboration of open source projects and 
+                                remote projects. reach out when you are interested.    
+                            </p>
                             <div class="container">
                                 Contact me:
                                 <a class="btn btn-primary" href="https://twitter.com/amry_87" target="_blank">
@@ -148,17 +170,45 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end of contact section -->
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- footer section -->
+    <div class="footer navbar-fixed-bottom navbar-inverse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    2017 &copy; All rights reserved!
+                </div>
+                <div class="col-md-2">
+                    <div class="container">
+                        Contact me:
+                        <a class="btn btn-primary btn-xs" href="https://twitter.com/amry_87" target="_blank">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>Twitter
+                        </a>
+                        <a class="btn btn-success btn-xs" href="https://www.linkedin.com/in/aolimov/" target="_blank">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn
+                        </a>
+                        <a class="btn btn-info btn-xs" href="" target="_blank">
+                            <i class="fa fa-stack-overflow" aria-hidden="true"></i>Stackoverflow
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer section -->
 
+    <!-- libs -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="resources/js/module.js"></script>
+    <!-- end of libs -->
 </body>
 
 </html>

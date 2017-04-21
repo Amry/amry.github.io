@@ -15,7 +15,8 @@ body {
 .col-sm-3 {
     padding-top: 1%;
     height: 100%;
-    background-color: lightgrey;
+    border-right: 1px solid #ccc;
+    text-align: center;
 }
 
 .col-sm-9 {
@@ -25,6 +26,14 @@ body {
 
 .tab {
     display: none;
+}
+
+.tab .about {
+    font-style: italic;
+}
+
+.tab .about-content {
+    font-size: 20px;
 }
 
 .img-circle {
@@ -40,6 +49,16 @@ body {
 .row {
     height: 100%;
 }
+
+.footer {
+    color: white;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color:#CF4647; 
+}
+
 
 
 
