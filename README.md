@@ -1,2 +1,4 @@
 # amry.github.io
-Personal Project Profile Page of Amrullokhuja Olimov
+Profile page
+
+Created the page to make it easier for people who for some reason would like to to see short information about me and my projects. 
